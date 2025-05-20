@@ -1,0 +1,134 @@
+1️⃣ Switch to a new database called facultydb
+
+use facultydb
+Output:
+switched to db facultydb
+
+2️⃣ Create a collection named professors and insert the following 3 professors:
+A professor teaching "Mathematics", with 10 years of experience, and is currently active.
+A professor teaching "Physics", with 5 years of experience, and is currently inactive.
+A professor teaching "Chemistry", with 8 years of experience, and is currently active.
+Each document should contain:
+name (string)
+subject (string)
+experience (number, in years)
+active (boolean)
+
+db.professors.insertMany([
+  {
+    name: "Dr. Kavita Iyer",
+    subject: "Mathematics",
+    experience: 10,
+    active: true
+  },
+  {
+    name: "Dr. Nikhil Sinha",
+    subject: "Physics",
+    experience: 5,
+    active: false
+  },
+  {
+    name: "Dr. Meera Das",
+    subject: "Chemistry",
+    experience: 8,
+    active: true
+  }
+])
+Output:
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('682c5a0f6553c63ed44f6abb'),
+    '1': ObjectId('682c5a0f6553c63ed44f6abc'),
+    '2': ObjectId('682c5a0f6553c63ed44f6abd')
+  }
+}
+
+3️⃣ Find all professors in the professors collection
+
+db.professors.find()
+
+Output:
+{
+  _id: ObjectId('682c5a0f6553c63ed44f6abb'),
+  name: 'Dr. Kavita Iyer',
+  subject: 'Mathematics',
+  experience: 10,
+  active: true
+}
+{
+  _id: ObjectId('682c5a0f6553c63ed44f6abc'),
+  name: 'Dr. Nikhil Sinha',
+  subject: 'Physics',
+  experience: 5,
+  active: false
+}
+{
+  _id: ObjectId('682c5a0f6553c63ed44f6abd'),
+  name: 'Dr. Meera Das',
+  subject: 'Chemistry',
+  experience: 8,
+  active: true
+}
+
+4️⃣ Find only the professors who are active
+
+db.professors.find({ active: true })
+
+Output:
+{
+  _id: ObjectId('682c5a0f6553c63ed44f6abb'),
+  name: 'Dr. Kavita Iyer',
+  subject: 'Mathematics',
+  experience: 10,
+  active: true
+}
+{
+  _id: ObjectId('682c5a0f6553c63ed44f6abd'),
+  name: 'Dr. Meera Das',
+  subject: 'Chemistry',
+  experience: 8,
+  active: true
+}
+
+5️⃣ Update the experience of the "Physics" professor to 6 years
+
+db.professors.updateOne(
+  { subject: "Physics" },
+  { $set: { experience: 6 } }
+)
+
+Output:
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+6️⃣ Mark the "Physics" professor as active
+
+db.professors.updateOne(
+  { subject: "Physics" },
+  { $set: { active: true } }
+)
+
+Output:
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+7️⃣ Delete the professor who teaches "Chemistry"
+
+db.professors.deleteOne({ subject: "Chemistry" })
+
+Output:
+{
+  acknowledged: true,
+  deletedCount: 1
+}
