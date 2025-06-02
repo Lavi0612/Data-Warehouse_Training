@@ -1,0 +1,16 @@
+order_id,order_date,delivery_date,quantity,status,product_id,product_name,product_quantity,reorder_level,supplier_id,supplier_name,contact_email,phone
+1,2024-05-01,2024-05-06,100,Delivered,1,Steel Rods,300,100,1,Alpha Supplies,contact@alphasupplies.com,123-456-7890
+2,2024-05-02,2024-05-12,150,Pending,2,Aluminum Sheets,450,150,2,Beta Traders,info@betatraders.com,234-567-8901
+3,2024-05-05,2024-05-15,80,Delivered,3,Copper Wires,250,100,3,Gamma Corp,support@gammacorp.com,345-678-9012
+4,2024-05-07,2024-05-16,300,Shipped,4,Plastic Tubes,600,200,4,Delta Distributors,sales@deltadistributors.com,456-789-0123
+5,2024-05-09,2024-05-14,60,Cancelled,5,Rubber Gaskets,120,80,5,Epsilon Exporters,export@epsilon.com,567-890-1234
+6,2024-05-10,2024-05-18,50,Delivered,6,Glass Panels,100,50,6,Zeta Logistics,zeta@logistics.com,678-901-2345
+7,2024-05-11,2024-05-21,120,Pending,7,Iron Bolts,800,300,7,Eta Goods,eta@goods.com,789-012-3456
+8,2024-05-13,2024-05-19,70,Shipped,8,Ceramic Tiles,200,100,8,Theta Manufacturing,theta@mfg.com,890-123-4567
+9,2024-05-14,2024-05-20,250,Delivered,9,PVC Pipes,700,250,9,Iota Wholesale,iota@wholesale.com,
+10,2024-05-15,2024-05-25,90,Pending,10,Wooden Planks,500,200,10,Kappa Supply Co.,,012-345-6789
+11,2024-05-16,,120,Pending,3,Copper Wires,250,100,3,Gamma Corp,support@gammacorp.com,345-678-9012
+12,2024-05-17,2024-05-23,200,,5,Rubber Gaskets,120,80,5,Epsilon Exporters,export@epsilon.com,567-890-1234
+13,,2024-05-24,180,Delivered,4,Plastic Tubes,,200,4,Delta Distributors,sales@deltadistributors.com,456-789-0123
+14,2024-05-18,2024-05-26,90,Shipped,6,Glass Panels,100,,6,Zeta Logistics,zeta@logistics.com,678-901-2345
+15,2024-05-20,2024-05-27,,Cancelled,8,Ceramic Tiles,200,100,8,Theta Manufacturing,theta@mfg.com,890-123-4567
