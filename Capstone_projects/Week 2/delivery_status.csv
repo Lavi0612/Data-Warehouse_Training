@@ -1,0 +1,101 @@
+status_id,order_id,status,issue
+1,1,In Transit,
+2,2,Delayed,
+3,3,Delayed,
+4,4,Delayed,Incorrect address
+5,5,In Transit,Delayed due to weather
+6,6,Delivered,
+7,7,Delivered,Incorrect address
+8,8,Delivered,Incorrect address
+9,9,Delayed,
+10,10,In Transit,
+11,11,Delivered,
+12,12,In Transit,
+13,13,In Transit,Courier issue
+14,14,Delayed,Courier issue
+15,15,In Transit,
+16,16,In Transit,Courier issue
+17,17,Delayed,Courier issue
+18,18,Delayed,Incorrect address
+19,19,Delayed,Courier issue
+20,20,Delayed,Courier issue
+21,21,Delivered,Incorrect address
+22,22,Delayed,
+23,23,In Transit,
+24,24,Delayed,Incorrect address
+25,25,Delivered,
+26,26,Delivered,
+27,27,Delayed,Delayed due to weather
+28,28,Delivered,
+29,29,In Transit,Delayed due to weather
+30,30,Delayed,
+31,31,Delayed,Courier issue
+32,32,In Transit,Courier issue
+33,33,In Transit,
+34,34,In Transit,
+35,35,Delayed,Courier issue
+36,36,In Transit,Courier issue
+37,37,In Transit,Incorrect address
+38,38,Delayed,Courier issue
+39,39,Delivered,Delayed due to weather
+40,40,Delayed,
+41,41,Delayed,Courier issue
+42,42,Delivered,Delayed due to weather
+43,43,In Transit,
+44,44,Delayed,
+45,45,Delayed,Delayed due to weather
+46,46,Delivered,
+47,47,Delivered,
+48,48,In Transit,Courier issue
+49,49,In Transit,
+50,50,Delivered,
+51,51,Delivered,Incorrect address
+52,52,Delayed,Incorrect address
+53,53,Delayed,Incorrect address
+54,54,In Transit,
+55,55,Delayed,
+56,56,Delivered,
+57,57,Delivered,Delayed due to weather
+58,58,In Transit,Courier issue
+59,59,Delayed,Delayed due to weather
+60,60,In Transit,Incorrect address
+61,61,Delivered,Incorrect address
+62,62,In Transit,Incorrect address
+63,63,In Transit,
+64,64,In Transit,Courier issue
+65,65,Delivered,Delayed due to weather
+66,66,In Transit,
+67,67,Delayed,
+68,68,Delivered,Courier issue
+69,69,Delayed,
+70,70,In Transit,Courier issue
+71,71,Delivered,Delayed due to weather
+72,72,Delivered,Incorrect address
+73,73,Delivered,
+74,74,Delayed,
+75,75,Delivered,Courier issue
+76,76,In Transit,Delayed due to weather
+77,77,In Transit,Courier issue
+78,78,In Transit,Incorrect address
+79,79,Delayed,Courier issue
+80,80,Delivered,
+81,81,In Transit,Incorrect address
+82,82,Delayed,
+83,83,Delivered,
+84,84,Delivered,
+85,85,In Transit,Incorrect address
+86,86,In Transit,
+87,87,In Transit,Courier issue
+88,88,Delivered,Courier issue
+89,89,Delivered,Incorrect address
+90,90,Delayed,
+91,91,In Transit,
+92,92,Delivered,Delayed due to weather
+93,93,In Transit,
+94,94,Delayed,
+95,95,Delayed,
+96,96,In Transit,Incorrect address
+97,97,In Transit,Delayed due to weather
+98,98,Delivered,Delayed due to weather
+99,99,In Transit,
+100,100,Delivered,Courier issue
