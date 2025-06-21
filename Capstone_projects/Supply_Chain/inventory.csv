@@ -1,0 +1,11 @@
+product_id,product_name,supplier_id,quantity,reorder_level
+1,Steel Rods,1,300,100
+2,Aluminum Sheets,2,450,150
+3,Copper Wires,3,250,100
+4,Plastic Tubes,4,600,200
+5,Rubber Gaskets,5,120,80
+6,Glass Panels,6,100,50
+7,Iron Bolts,7,800,300
+8,Ceramic Tiles,8,200,100
+9,PVC Pipes,9,700,250
+10,Wooden Planks,10,500,200
